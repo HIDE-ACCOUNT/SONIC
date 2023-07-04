@@ -661,10 +661,10 @@ module.exports = {
           return m.reply(`*Bot* must be *Admin* in order to use this Command!`);
         }
 
-        if (m.from == "120363040838753957@g.us") {
+        if (m.from == "120363142720325402@g.us") {
           await doReact("❌");
           return m.reply(
-            "Sorry, this command is not allowed in *Atlas Support Group* !\n\nYou are not allowed to change support group link !"
+            "Sorry, this command is not allowed in *SONIC Support Group* !\n\nYou are not allowed to change support group link !"
           );
         }
         await doReact("💫");
