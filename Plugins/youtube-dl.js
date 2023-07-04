@@ -121,7 +121,7 @@ _🏮 Video Uploaded:_ *${song.ago}*\n`,
         song = songInfo.videos[0];
         videoUrl = song.url;
         videoId = videoUrl.split("v=")[1];
-        thumbAtlas = "https://graph.org/file/d0a287fa875c809f234ce.jpg";
+        thumbAtlas = "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg";
 
         await Atlas.sendMessage(
           m.from,
